@@ -23,12 +23,7 @@
 
 ---
 
-` Public class Fun {
-    public Fun() {
-      System.out.print("Are we having fun yet?");
-    }
-  }
-`
+` Public class Fun { `
 ```
 //Code block
 System.out.print("hi");
