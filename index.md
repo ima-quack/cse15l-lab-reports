@@ -8,7 +8,7 @@
 
 [sus](https://www.innersloth.com/games/among-us/)
 
-![cool](https://static.wikia.nocookie.net/shipping/images/c/c9/D5a34hh-3eaf1fb5-107a-4852-9991-2ae81043a2fe.png/revision/latest?cb=20200713000033) 
+![cool](https://students.ucsd.edu/_images/student-life/athletics-and-recreation/triton-mascot-pool-banner.jpg) 
 
 
 > This is a quote
