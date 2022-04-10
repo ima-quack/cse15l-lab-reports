@@ -8,7 +8,7 @@ Axolytyl Group Members
 
 ---
 ## Installing VSCode
-![Visual Studio Code](https://code.visualstudio.com/assets/home/home-screenshot-mac.png)
+![Visual Studio Code](VSCode.png)
 
 To get started with setting up for the class and other programming work:
 * Head to [Visual Studio Code](https://code.visualstudio.com/Download)!
