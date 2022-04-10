@@ -5,7 +5,6 @@ This is a lab report written up by Nhan Quach part of the Axolytyl Group led by 
 Axolytyl Group Members
 
 | Nhan | Tyler | Kayla | Diego | Jas | Snehal |
-| --- | --- | --- | --- | --- | --- | 
 
 ---
 ## Installing VSCode
