@@ -14,7 +14,8 @@ To get started with setting up for the class and other programming work:
 * Head to [Visual Studio Code](https://code.visualstudio.com/Download)!
     * Download the version of VSCode appropriate for your computer (e.g. Windows, Mac, Linux)
 * Download any other languages which you would want to code with.
-    * For example: 🐍 [Python](https://www.python.org/downloads/) or ☕ [Java](https://www.oracle.com/java/technologies/downloads/) 
+    * For example: 🐍 [Python](https://www.python.org/downloads/) or ☕ [Java](https://www.oracle.com/java/technologies/downloads/)
+
 ---
 
 ## Remotely Connecting
@@ -82,6 +83,7 @@ To convinence ourselves, we can utilize a key generator which will identify our 
 * Try logging onto your account now! 
 
 ![SSHkeyQuach](Login.png)
+
 ---
 ## Optimizing Remote Running
 ![Optimize](Fast.png)
