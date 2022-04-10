@@ -59,6 +59,7 @@ You can find more commands on what to do with the Command Prompt and Remote Clie
 ---
 ## Moving Files with `scp`
 ![Copy](Copy.png)
+
 One powerful command available to you when you have access to a remote computer is to copy one file from you local client -- the computer you are actively using -- and the remote!
 * Within your terminal type in the command `scp` while also specifying the file and location of where you can to copy something over to.
     * For example, `scp <file> cs15l<quarter><asd>@ieng6.ucsd.edu`
