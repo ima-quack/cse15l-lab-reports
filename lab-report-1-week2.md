@@ -68,7 +68,7 @@ One powerful command available to you when you have access to a remote computer 
 
 ---
 ## Setting an SSH Key
-![SSHkey](url) 
+![SSHkey](SSHKeys.png) 
 To convinence ourselves, we can utilize a key generator which will identify our local client as an authorized user to access our remote computer without needing a password! 
 * Open your terminal with Visual Studio Code
 * Type in `ssh-keygen`
@@ -80,8 +80,8 @@ To convinence ourselves, we can utilize a key generator which will identify our 
 * Enter the command: `mkdir .ssh` then logout
 * Within your client terminal, type: `scp <Director you saved the keys in>/id_rsa.pub` and `cs15l<quarter><asd>@ieng6.ucsd.edu:~/.ssh/authorized_keys` 
 * Try logging onto your account now! 
-![SSHkeyQuach](url)
+![SSHkeyQuach](Login.png)
 ---
 ## Optimizing Remote Running
-
+![Optimize](Fast.png)
 Now that we've added in all this convinence of logging in without needing a password, we can try to learn how to optimize utilizing a command terminal which should help us use a remote computer faster! 
