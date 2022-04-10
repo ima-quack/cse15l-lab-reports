@@ -3,8 +3,10 @@
 This is a lab report written up by Nhan Quach part of the Axolytyl Group led by Elias.
 
 Axolytyl Group Members
-| Nhan | Tyler | Kayla | Diego | Jas | Snehal 
-| --- | --- | --- | --- | --- | --- |
+
+| Nhan | Tyler | Kayla | Diego | Jas | Snehal |
+| --- | --- | --- | --- | --- | --- | 
+
 ---
 ## Installing VSCode
 ![Visual Studio Code](https://code.visualstudio.com/assets/home/home-screenshot-mac.png)
@@ -33,6 +35,7 @@ One of the kinks which UCSD currently has is that lab login accounts for the Com
 
 Once you get through that far, you can actually start to remotely connect to the server!
 ![Connect](Remote.png)
+* Install [OpenSSH](https://sdacs.ucsd.edu/~icc/index.php)
 * Open up your command terminal
     * You can either do this through your computer itself, or through Visual Studio Code 
 * Type in `ssh cs15l\<quarter>\<asd>`
@@ -61,14 +64,24 @@ One powerful command available to you when you have access to a remote computer 
     * For example, `scp <file> cs15l<quarter><asd>@ieng6.ucsd.edu`
 * You'll need to type in your password for the file to copy over, but in the next step we'll be able to get around that!
 
+
+
 ---
 ## Setting an SSH Key
-
+![SSHkey](url) 
+To convinence ourselves, we can utilize a key generator which will identify our local client as an authorized user to access our remote computer without needing a password! 
+* Open your terminal with Visual Studio Code
+* Type in `ssh-keygen`
+    * Save your keys within this directory: </Users/<user-name/.ssh/id_rsa>
+* Enter in a passphrase
+    * You can also leave this empty for no passphrase, but we recommend you do not 
+* If you are on Windows, enter this command: `ssh-keygen -t ed25519` 
+* Connect to your remote acount as normal
+* Enter the command: `mkdir .ssh` then logout
+* Within your client terminal, type: `scp <Director you saved the keys in>/id_rsa.pub` and `cs15l<quarter><asd>@ieng6.ucsd.edu:~/.ssh/authorized_keys` 
+* Try logging onto your account now! 
+![SSHkeyQuach](url)
 ---
 ## Optimizing Remote Running
 
-
-
-
-[Lab Report 1](lab-report-1-week-2.html)
-[Lab Report 1](https://ima-quack.github.io/cse15l-lab-reports/lab-report-1-week2.html)
+Now that we've added in all this convinence of logging in without needing a password, we can try to learn how to optimize utilizing a command terminal which should help us use a remote computer faster! 
