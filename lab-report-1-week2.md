@@ -87,3 +87,11 @@ To convinence ourselves, we can utilize a key generator which will identify our 
 ![Optimize](Fast.png)
 
 Now that we've added in all this convinence of logging in without needing a password, we can try to learn how to optimize utilizing a command terminal which should help us use a remote computer faster! 
+* Command prompt shortcuts include things such as accessing previously typed commands.
+    * This can be achieved by using ⬆️ or ⬇️ keys.
+* You can use the `tab` key to quickly autofill commands based on the context of the command and contents of the directory.
+* Multiple commands can be typed out at once within a command line using a ;
+    * For example: `javac WhereAmI.java; java WhereAmI` will compile and run the WhereAmI file!
+* Commands can also be sent out to the remote computer! 
+    * For example: `ssh cs15l<quarter><zzz>@ieng6.ucsd.edu "javac *.java; java WhereAmI"` will compile all the .java files and run the WhereAmI file on the remote computer from the local client.
+* You can try to combine all these shortcuts to optimize using the remote client. 
