@@ -57,9 +57,15 @@ The private key is within the same location as the public key which I have alrea
 
 ![ieng6_ssh](screenshots\ieng6_private_keys.png)
 
-Show running git commands to commit and push a change to GitHub while logged into ieng6 account.
+Now that my ieng6 is linked to Github, I can make some git commands work through ieng6! For example, I can do the normal `git commit` and `git push` for a file from Lab Report 1 (which was copied over to my ieng6) to Github.
 
-Show link for the resulting commit.
+![ieng6_git](screenshots\ieng6_git.png)
+
+We can see here from Github that these pushes were received! 
+
+![github_received](screenshots\github_received_ieng6.png)
+
+This is the corresponding link to that push on [Github](https://github.com/ima-quack/cse15l-lab-reports/commit/14e9c788d7ebf163de358e296e5e62899a87e843).
 
 # Copy whole directories with scp -r 
 
