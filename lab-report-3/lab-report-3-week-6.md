@@ -69,8 +69,19 @@ This is the corresponding link to that push on [Github](https://github.com/ima-q
 
 # Copy whole directories with scp -r 
 
-Show copying whole markdown-parse directory to ieng6 account
+Now with quick and easy ieng6 access along with Github being available from my ieng6 account, I can do things such as copying over an entire repository from Github to my ieng6!
 
-Show logging into ieng6 account after doing this and compiling and runnign the tests for repository
+![scp_repo](screenshots\scp_alias.png)
 
-Show combining scp, ;, and ssh to copy the whole directory and run the tests in one line. 
+From here, I can check my ieng6 account and try running and compiling the tests from ieng6 rather than my client computer.
+
+![ieng6_test](screenshots\ieng6_test.png)
+
+However, that was still quite a lot of steps. So, instead I could do everything from one command line prompt where I copy over a whole repository and run the commands to compile and run the tests from ieng6!
+
+The command is slightly long due to the current ieng6 server running an older version of Java, but the command to run everything is as follows: 
+
+```scp -r . cslab:~/markdown-parser ; ssh cslab "cd markdown-parser ; /software/CSE/oracle-java-17/jdk-17.0.1/bin/javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java ; /software/CSE/oracle-java-17/jdk-17.0.1/bin/java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar:. org.junit.runner.JUnitCore MarkdownParseTest"```
+
+![all_in_one](screenshots\allinone1.png)
+![all_in_one_2](screenshots\allinone2.png)
