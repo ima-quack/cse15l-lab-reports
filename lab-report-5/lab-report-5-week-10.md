@@ -66,7 +66,7 @@ The bug in this case stems from how the cloned repository only adds in a link wh
 
 Reminder, left-hand side is from the original forked repository, and the right-hand side is from my implementation. [Link to test](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/194.md)
 
-According to the CommonMark demo [website](https://spec.commonmark.org/dingus/), the correct output should be `[url.com]`. 
+According to the CommonMark demo [website](https://spec.commonmark.org/dingus/), the correct output should be `[url]`. 
 
 ![link2](images/link2.png)
 ![link2Proof](images/link2Proof.png)
